@@ -1,0 +1,15 @@
+.contoh {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+.contohbox{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    float: left;
+    margin: 0 40px 40px 0;
+    border:1px;
+    color:yellow;
+    border-radius:3px;
+}
