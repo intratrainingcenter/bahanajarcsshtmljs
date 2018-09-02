@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Javascript Event</title>
+    </head>
+    <body>
+        <div id="demo"></div>
+        <button onclick="document.getElementById('demo').innerHTML = Date()">Click Me!</button>
+        <select onchange="document.getElementById('demo').innerHTML = Date()">
+            <option value="tampil">Tampil</option>
+            <option value="tampil">Tampil</option>
+        </select>
+        <button onmouseover="document.getElementById('demo').innerHTML = Date()">Hover Me</button>
+        <div id="demo1"></div>
+        <input type="text" onkeydown="document.getElementById('demo1').innerHTML = document.getElementById('input').value" id="input">
+    </body>
+    <script src="style.js"></script>
+</html>
