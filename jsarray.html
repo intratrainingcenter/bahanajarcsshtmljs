@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Javascript Array</title>
+    </head>
+    <body>
+        <div id="demo"></div>
+        <button onclick="sorting()">Sort This</button>
+        <button onclick="looping()">Loop This</button>
+    </body>
+    <script>
+        var array = ['a','b','c']
+        var arrjson = [{'nama':'nurdin','kelas':'1'},{'nama':'ekhsan','kelas':'2'}];
+        document.getElementById("demo").innerHTML = array;
+        function sorting(){
+            console.log(array.sort())
+            console.log(array.reverse())
+        }
+        function looping(){
+            arrjson.forEach(element => {
+                console.log(element)
+            });
+        }
+    </script>
+</html>
